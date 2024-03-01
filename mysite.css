@@ -1,0 +1,85 @@
+
+body{
+	font-family: Calibri;
+	 background-image: url('background.jpg');
+	 text-align: center;
+}
+
+#specialstyle{
+	font-size:250%;
+}
+
+#specialstyle2{
+	font-size:300%;
+}
+
+.background-color{
+	background-color: white;
+}
+
+.font{
+	font-size:35Px;
+	color:white;
+}
+	
+.div1 {
+	width:33.33%; 
+  float:left;
+  background-color:#889ca3;
+}
+
+.div2 {
+	width:33.33%; 
+  float:left;
+  background-color:#d59ca3;
+}
+
+.div3 {
+	width:33.33%; 
+  float:left;
+  background-color:#9fa3c7;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.background1{
+	background-color:#889ca3
+}
+
+.background2{
+	background-color:#d59ca3
+}
+
+.background3{
+	background-color:#9fa3c7
+}
+
+<style>
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+</style>
+
+<style>
+div.relative {
+  position: relative;
+  top: 30px;
+}
+</style>
